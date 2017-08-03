@@ -7,9 +7,10 @@ remote to the loca git repo
 
 e.g.: 
 
-    $ centralize-git-repo.sh localrepo user@gitserver:/srv/git
+    $ centralize-git-repo.sh arepo user@gitserver:/srv/git
 
-It generates folder in `server:/git/localrepo.git` and a git remote in
+
+Generates folder in `server:/srv/git/arepo.git` and adds the remote in
 local repo.
 
 Based in <https://simpleit.rocks/creating-a-git-server-from-a-git-repo/>.
