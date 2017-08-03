@@ -13,7 +13,7 @@ set -e
 GIT="/usr/bin/git"
 SCP="/usr/bin/scp"
 
-if [ "$1" == "--help" ] | [ $# -eq 0 ] ; then
+if [ "$1" == "--help" ] || [ $# -eq 0 ] ; then
     echo "$0 [repo] [user@]hostname:[remote_git_path]"
     exit 0
 fi
